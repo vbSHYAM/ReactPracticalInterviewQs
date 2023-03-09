@@ -5,7 +5,7 @@ const ConsumerHoc = (props) => {
   return (
     <div>
       <h1>
-        i am the <i>{props.value}</i>
+        i am the <mark><del>{props.value}</del></mark>
       </h1>
     </div>
   );
