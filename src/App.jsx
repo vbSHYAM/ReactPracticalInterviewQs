@@ -4,6 +4,7 @@ import Consumer from './components/contextapi/Consumer'
 import Provider from './components/contextapi/Provider'
 import ControlledFormComp from './components/controlledform/ControlledFormComp'
 import SearchFilter from './components/searchfilter/SearchFilter'
+import ToDoList from './components/todolist/ToDoList'
 import AsyncUseEffect from './components/useeffect/AsyncUseEffect'
 import UseEffect from './components/useeffect/UseEffect'
 
@@ -20,8 +21,10 @@ const App = () => {
       {/* ------search filter------ */}
       {/* <SearchFilter/> */}
       {/* ----------contextApi------ */}
-      <Consumer/>
-      {/* ---------------------------- */}
+      {/* <Consumer/> */}
+      {/* --------------Todolist-------------- */}
+<ToDoList/>
+
     </Provider>
   )
 }
