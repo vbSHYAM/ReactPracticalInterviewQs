@@ -9,29 +9,34 @@ import AsyncUseEffect from "./components/useeffect/AsyncUseEffect";
 import UseEffect from "./components/useeffect/UseEffect";
 import ParentPropOne from "./components/props/ParentPropOne";
 import ConsumerHoc from "./components/hoc/ConsumerHoc";
+import ParentPropTwo from "./components/props/ParentPropTwo";
+import Upload from "./components/task1/Upload";
 
 const App = () => {
   return (
-    <Provider>
-      {/* ----useEffect ------------------ */}
-      {/* <UseEffect/> */}
-      {/* <AsyncUseEffect/> */}
-      {/* ----------Axios------------- */}
-      {/* <Axios/> */}
-      {/* ----------Controlled Form Comp / add fields--------------- */}
-      {/* <ControlledFormComp/> */}
-      {/* ------search filter------ */}
-      {/* <SearchFilter/> */}
-      {/* ----------contextApi------ */}
-      {/* <Consumer/> */}
-      {/* --------------Todolist-------------- */}
-      {/* <ToDoList/> */}
-      {/* ------------------------Props-------------- */}
-      {/* <ParentPropOne /> */}
-      {/* -----------------HOC---------------- */}
-      <ConsumerHoc/>
-    </Provider>
-    
+    // <Provider>
+    //   {/* ----useEffect ------------------ */}
+    //   {/* <UseEffect/> */}
+    //   {/* <AsyncUseEffect/> */}
+    //   {/* ----------Axios------------- */}
+    //   {/* <Axios/> */}
+    //   {/* ----------Controlled Form Comp / add fields--------------- */}
+    //   {/* <ControlledFormComp/> */}
+    //   {/* ------search filter------ */}
+    //   {/* <SearchFilter/> */}
+    //   {/* ----------contextApi------ */}
+    //   {/* <Consumer/> */}
+    //   {/* --------------Todolist-------------- */}
+    //   {/* <ToDoList/> */}
+    //   {/* ------------------------Props-------------- */}
+    //   {/* <ParentPropOne /> */}
+    //   {/* <ParentPropTwo/> */}
+    //   {/* -----------------HOC---------------- */}
+    //   {/* <ConsumerHoc/> */}
+    //   {/* ------------upload--------------- */}
+    <Upload />
+
+    // </Provider>
   );
 };
 

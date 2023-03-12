@@ -27,13 +27,13 @@ const ControlledFormComp = () => {
     SetAddfield(remove);
   };
 
-//   --------------------------------------------
+  //   --------------------------------------------
 
   let disableButton = () => {
     setData(!data);
   };
 
-  let handleChange = (e) => {
+  let handleChange = (e) => { 
     let { name, value } = e.target;
     setData({ ...data, [name]: value });
   };
