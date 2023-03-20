@@ -10,7 +10,7 @@ import UseEffect from "./components/useeffect/UseEffect";
 import ParentPropOne from "./components/props/ParentPropOne";
 import ConsumerHoc from "./components/hoc/ConsumerHoc";
 import ParentPropTwo from "./components/props/ParentPropTwo";
-import Upload from "./components/task1/Upload";
+import Upload from "./components/uploadfile/Upload";
 
 const App = () => {
   return (
@@ -34,7 +34,7 @@ const App = () => {
     //   {/* -----------------HOC---------------- */}
     //   {/* <ConsumerHoc/> */}
     //   {/* ------------upload--------------- */}
-    <Upload />
+    <Upload/>
 
     // </Provider>
   );
