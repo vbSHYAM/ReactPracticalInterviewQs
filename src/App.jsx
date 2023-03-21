@@ -10,6 +10,10 @@ import ParentPropOne from "./components/props/ParentPropOne";
 import ConsumerHoc from "./components/hoc/ConsumerHoc";
 import ParentPropTwo from "./components/props/ParentPropTwo";
 import Upload from "./components/uploadfile/Upload";
+import Get from "./components/getpostput/Get";
+import Post from "./components/getpostput/Post";
+import Put from "./components/getpostput/Put";
+import Delete from "./components/getpostput/Delete";
 
 const App = () => {
   return (
@@ -24,7 +28,7 @@ const App = () => {
       {/* ------search filter------ */}
       {/* <SearchFilter/> */}
       {/* ----------contextApi------ */}
-      <Consumer />
+      {/* <Consumer /> */}
       {/* --------------Todolist-------------- */}
       {/* <ToDoList/> */}
       {/* ------------------------Props-------------- */}
@@ -34,6 +38,14 @@ const App = () => {
       {/* <ConsumerHoc/> */}
       {/* ------------upload--------------- */}
       {/* <Upload/> */}
+      {/* ----------------GET Method------------------------ */}
+      {/* <Get/> */}
+      {/* ---------------POST MEthod---------------------- */}
+      {/* <Post/> */}
+      {/* --------------PUT Method-------------------- */}
+      {/* <Put/> */}
+      {/* -----------------DELETE Method------------ */}
+      <Delete/>
     </div>
   );
 };
