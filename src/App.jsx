@@ -1,6 +1,7 @@
 import React from "react";
+import Consumer1 from "./useContextApi/Consumer1";
 import Axios from "./components/axios/Axios";
-import Consumer from "./components/contextapi/Consumer";
+import Consumer from "./useContextApi/Consumer1";
 import ControlledFormComp from "./components/controlledform/ControlledFormComp";
 import SearchFilter from "./components/searchfilter/SearchFilter";
 import ToDoList from "./components/todolist/ToDoList";
@@ -14,7 +15,9 @@ import Get from "./components/getpostput/Get";
 import Post from "./components/getpostput/Post";
 import Put from "./components/getpostput/Put";
 import Delete from "./components/getpostput/Delete";
-
+import Useeffectttt from "./prac/Useeffectttt";
+import Child1111 from "./components/useeffect/Child1111";
+import Child2 from "./components/hoc/Child2";
 const App = () => {
   return (
     <div>
@@ -36,6 +39,7 @@ const App = () => {
       {/* <ParentPropTwo/> */}
       {/* -----------------HOC---------------- */}
       {/* <ConsumerHoc/> */}
+
       {/* ------------upload--------------- */}
       {/* <Upload/> */}
       {/* ----------------GET Method------------------------ */}
@@ -45,7 +49,7 @@ const App = () => {
       {/* --------------PUT Method-------------------- */}
       {/* <Put/> */}
       {/* -----------------DELETE Method------------ */}
-      <Delete/>
+      {/* <Delete/> */}
     </div>
   );
 };
@@ -56,6 +60,7 @@ export default App;
 
 // import React from 'react'
 // import ContextConsumer from './components/contextapinew/ContextConsumer'
+// import Consumer from './useContextApi/Consumer1';
 
 // const App = () => {
 
