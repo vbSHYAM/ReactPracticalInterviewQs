@@ -20,3 +20,19 @@ export default cool;
 
 
 
+
+// const ProviderHoc = (hoc) => {
+//   return class ProviderHoc extends Component {
+//     render() {
+//       return (
+//         <div>
+          
+//         </div>
+//       )
+//     }
+//   }
+// }
+
+// export default cool
+
+
