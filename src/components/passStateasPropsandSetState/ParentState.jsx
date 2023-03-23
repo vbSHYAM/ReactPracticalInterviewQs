@@ -15,7 +15,7 @@ const ParentState = () => {
     <div>
       {/* {<ChildStateAsProp prop={data} />} */}
       <h1> Parent Name - {data.Name}</h1>
-      <h1>Parent Aka0 - {data.Aka}</h1>
+      <h1>Parent Aka - {data.Aka}</h1>
       {<ChildUpdateState prop={data} UpdateState={HandleUserChange} />}
     </div>
   );
