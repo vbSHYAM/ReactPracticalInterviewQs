@@ -13,6 +13,7 @@ import Get from "./components/getpostput/Get";
 import Post from "./components/getpostput/Post";
 import Put from "./components/getpostput/Put";
 import Delete from "./components/getpostput/Delete";
+import ParentState from "./components/passStateasPropsandSetState/ParentState";
 
 const App = () => {
   return (
@@ -45,14 +46,16 @@ const App = () => {
       {/* --------------PUT Method-------------------- */}
       {/* <Put/> */}
       {/* -----------------DELETE Method------------ */}
-      <Delete />
+      {/* <Delete /> */}
+      {/* -------------------Props As state and Update State------------------------------ */}
+      <ParentState/>
     </div>
   );
 };
 
 export default App;
 
-// ------------------------context API---------------------------------------
+// !------------------------!!context API!!---------------------------------------
 
 // import React from 'react'
 // import ContextConsumer from './components/contextapinew/ContextConsumer'
