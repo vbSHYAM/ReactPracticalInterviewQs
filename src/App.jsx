@@ -14,6 +14,9 @@ import Post from "./components/getpostput/Post";
 import Put from "./components/getpostput/Put";
 import Delete from "./components/getpostput/Delete";
 import ParentState from "./components/passStateasPropsandSetState/ParentState";
+import CheckboxForm from "./components/controlledform/CheckBox";
+import HomeLazy from "./components/reactlazyloading/HomeLazy";
+import PasswordToggle from "./components/passwordtoggle/PasswordToggle";
 
 const App = () => {
   return (
@@ -25,6 +28,7 @@ const App = () => {
       {/* <Axios/> */}
       {/* ----------Controlled Form Comp / add fields--------------- */}
       {/* <ControlledFormComp/> */}
+      {/* <CheckboxForm/> */}
       {/* ------search filter------ */}
       {/* <SearchFilter/> */}
       {/* ----------contextApi------ */}
@@ -48,7 +52,11 @@ const App = () => {
       {/* -----------------DELETE Method------------ */}
       {/* <Delete /> */}
       {/* -------------------Props As state and Update State------------------------------ */}
-      <ParentState/>
+      {/* <ParentState/> */}
+      {/* --------------REACT LAZY LOADING------------------- */}
+      {/* <HomeLazy/> */}
+      {/* ---------------------Password Toggle----------------------- */}
+      <PasswordToggle/>
     </div>
   );
 };

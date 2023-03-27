@@ -18,7 +18,7 @@ const ControlledFormComp = () => {
   };
 
   let handleAddField = () => {
-    SetAddfield([...addfield, ""]);
+    SetAddfield([...addfield, Name]);
   };
 
   let handleRemoveField = (i) => {
@@ -29,11 +29,16 @@ const ControlledFormComp = () => {
 
   //   --------------------------------------------
 
-  let disableButton = () => {
-    setData(!data);
-  };
+  // let disableButton = () => {
+  //   setData(!data);
+  // };
 
-  let handleChange = (e) => { 
+  // let disableButton = () => {
+  //   setData({ ...data, disabled: true });
+  //   setData({ ...data, Name: "" });
+  // };
+
+  let handleChange = (e) => {
     let { name, value } = e.target;
     setData({ ...data, [name]: value });
   };
@@ -51,19 +56,19 @@ const ControlledFormComp = () => {
           {/* <input
             type="text"
             name="Name"
-            onClick={disableButton}
+            // onClick={disableButton}
             value={Name}
             onChange={handleChange}
           /> */}
           {addfield.map((a, b) => {
             return (
-              <>
+              <>  
                 <input
                   type="text"
                   name="Name"
-                  onClick={disableButton}
+                  // onClick={disableButton}
                   value={a}
-                  onChange={(d) => handleAddChange(d.target.value, b)}
+                  onChange={(e) => handleAddChange(e.target.value, b)}
                 />
 
                 {addfield.length - 1 === b && (
@@ -107,7 +112,7 @@ const ControlledFormComp = () => {
         </div>{" "}
         <br />
         {/* -------------------------- */}
-        <button disabled={data ? true : false}>Submit</button>
+        <button>Submit</button>
       </form>
     </section>
   );
