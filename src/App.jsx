@@ -17,6 +17,10 @@ import ParentState from "./components/passStateasPropsandSetState/ParentState";
 import CheckboxForm from "./components/controlledform/CheckBox";
 import HomeLazy from "./components/reactlazyloading/HomeLazy";
 import PasswordToggle from "./components/passwordtoggle/PasswordToggle";
+import ParentMemo from "./components/use-memo/ParentMemo";
+import ParentRef from "./components/ref/ParentRef";
+import ParentForwardRef from "./components/forwardref/ParentForwardRef";
+import UseMemo from "./components/use-memo/UseMemo";
 
 const App = () => {
   return (
@@ -56,7 +60,15 @@ const App = () => {
       {/* --------------REACT LAZY LOADING------------------- */}
       {/* <HomeLazy/> */}
       {/* ---------------------Password Toggle----------------------- */}
-      <PasswordToggle/>
+      {/* <PasswordToggle/> */}
+      {/* ------------------------------useMemo------------------- */}
+      {/* <ParentMemo/> */}
+      {/* <ParentMemo/> */}
+     {/* ---------------------REF---------------- */}
+     {/* <ParentRef/> */}
+    {/* ------------------Forward Ref --------------------- */}
+    {/* <ParentForwardRef/> */}
+    <UseMemo/>
     </div>
   );
 };

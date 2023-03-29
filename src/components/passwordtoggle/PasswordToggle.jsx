@@ -45,7 +45,7 @@ const PasswordToggle = () => {
         />
 
         {match===true && (<mark>password correct</mark>)}
-        {match===false && (<h1>in correct</h1>)}
+        {match===false && (<h1 style={{color:"red"}}>in correct</h1>)}
       </div>
       <br /> <br />
       <button>Submit</button>
